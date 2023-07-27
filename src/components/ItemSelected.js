@@ -23,7 +23,7 @@ const ItemSelected = (props) => {
             });
         } else {
                 dispatch({
-                    type: 'ADD_QUANTITY',
+                    type: 'ADD_EXPENSE',
                     payload: item,
                 });
             }
