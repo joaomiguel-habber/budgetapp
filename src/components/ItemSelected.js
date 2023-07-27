@@ -18,7 +18,7 @@ const ItemSelected = (props) => {
 
         if(action === "Reduce") {
             dispatch({
-                type: 'RED_QUANTITY',
+                type: 'RED_EXPENSE',
                 payload: item,
             });
         } else {
