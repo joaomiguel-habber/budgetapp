@@ -7,6 +7,9 @@ import ExpenseTotal from './components/ExpenseTotal';
 import ExpenseList from './components/ExpenseList';
 import AllocationForm from './components/AllocationForm';
 import RemainingBudget from './components/Remaining';
+import CartValue from './components/CartValue';
+import ItemSelected from './components/ItemSelected';
+import Currency from './components/Currency';
 
 const App = () => {
     return (
